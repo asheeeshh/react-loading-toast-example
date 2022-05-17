@@ -1,5 +1,6 @@
 ## React Loading Toast Example
 You can read the blog post [here](https://dev.to/asheeshh/create-beautiful-loading-notification-in-react-in-20-lines-of-code-3cen)
+
 made using:
 - react
 - vite
