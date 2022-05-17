@@ -31,7 +31,7 @@ function App() {
 
   return (
     <div className="relative App flex justify-center items-center bg-red-200 w-screen h-screen flex-col gap-3 p-3">
-      <button onClick={getToast} className='hover:rotate-3 duration-300 bg-red-400 -rotate-3 shadow-xl rounded-md px-6 py-2 text-rose-100 font-bolder' >🎵ㅤGet Song Data</button>
+      <button onClick={getToast} disabled={data} className='hover:rotate-3 duration-300 bg-red-400 -rotate-3 shadow-xl rounded-md px-6 py-2 text-rose-100 font-bolder' >🎵ㅤGet Song Data</button>
       {data && 
         <div className='hover:-rotate-1 duration-300 cursor-pointer bg-red-400 flex flex-col rotate-1 justify-center items-center h-1/4 w-full lg:w-1/3 md:w-1/2 shadow-2xl rounded-md p-4'>
           <h1 className='text-center text-2xl mb-3 text-red-100 font-bold'>ashish's top song for this week 🎵</h1>
